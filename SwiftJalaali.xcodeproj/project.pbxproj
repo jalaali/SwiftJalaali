@@ -254,7 +254,6 @@
 					};
 					8E69C6191D06E09E00E341F3 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = PU46V4N9RQ;
 					};
 					8E69C6221D06E09E00E341F3 = {
 						CreatedOnToolsVersion = 7.3;
@@ -591,6 +590,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -649,6 +649,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -791,6 +792,7 @@
 				8E69C6111D06E08A00E341F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E69C6121D06E08A00E341F3 /* Build configuration list for PBXNativeTarget "SwiftJalaaliOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -799,6 +801,7 @@
 				8E69C6141D06E08A00E341F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E69C62B1D06E09E00E341F3 /* Build configuration list for PBXNativeTarget "SwiftJalaaliIOS" */ = {
 			isa = XCConfigurationList;
@@ -807,6 +810,7 @@
 				8E69C62D1D06E09E00E341F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E69C62E1D06E09E00E341F3 /* Build configuration list for PBXNativeTarget "SwiftJalaaliIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -815,6 +819,7 @@
 				8E69C6301D06E09E00E341F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
