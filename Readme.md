@@ -14,75 +14,78 @@ Use [Carthage](https://github.com/Carthage/Carthage) to build and install.
 
 ## API
 
-### func toJalaali(gy: GregorianYear, _ gm: GregorianMonth, _ gd: GregorianDay) -> JalaaliDate
+### Converts a Gregorian date to Jalaali
+```swift
+func toJalaali(gy: GregorianYear, _ gm: GregorianMonth, _ gd: GregorianDay) -> JalaaliDate
+```
 
-Converts a Gregorian date to Jalaali.
-
-
-### func toGregorian(jy: JalaaliYear, _ jm: JalaaliMonth, _ jd: JalaaliDay) -> GregorianDate
-
-Converts a Jalaali date to Gregorian.
-
-
-### func isValidJalaaliDate(jy: JalaaliYear, _ jm: JalaaliMonth, _ jd: JalaaliDay) -> Bool
-
-Checks whether a Jalaali date is valid or not.
+### Converts a Jalaali date to Gregorian
+```swift
+func toGregorian(jy: JalaaliYear, _ jm: JalaaliMonth, _ jd: JalaaliDay) -> GregorianDate
+```
 
 
-### func isLeapJalaaliYear(jy: JalaaliYear) -> Bool {
+### Checks whether a Jalaali date is valid or not
+```swift
+func isValidJalaaliDate(jy: JalaaliYear, _ jm: JalaaliMonth, _ jd: JalaaliDay) -> Bool
+```
 
-Is this a leap year or not?
+### Is this a leap year or not?
+```swift
+func isLeapJalaaliYear(jy: JalaaliYear) -> Bool {
+```
 
+### Number of days in a given month in a Jalaali year
+```swift
+func lastDayOfJalaaliMonth(jy: JalaaliYear, _ jm: JalaaliMonth) -> JalaaliDay
+```
 
-### func lastDayOfJalaaliMonth(jy: JalaaliYear, _ jm: JalaaliMonth) -> JalaaliDay
+### A tuple for a Jalaali date
+```swift
+typealias JalaaliDate = (year: JalaaliYear, month: JalaaliMonth, day: JalaaliDay)
+```
 
-Number of days in a given month in a Jalaali year.
+### A tuple for a Gregorian date
+```swift
+typealias GregorianDate = (year: GregorianYear, month: GregorianMonth, day: GregorianDay)
+```
 
+### An Int representing a Jalaali year
+```swift
+typealias JalaaliYear = Int
+```
 
-### typealias JalaaliDate = (year: JalaaliYear, month: JalaaliMonth, day: JalaaliDay)
+### An Int representing a Jalaali month (1-based)
+```swift
+typealias JalaaliMonth = Int
+```
 
-A tuple for a Jalaali date.
+### An Int representing a Jalaali day
+```swift
+typealias JalaaliDay = Int
+```
 
+### An Int representing a Gregorian year
+```swift
+typealias GregorianYear = Int
+```
 
-### typealias GregorianDate = (year: GregorianYear, month: GregorianMonth, day: GregorianDay)
+### An Int representing a Gregorian month (1-based)
+```swift
+typealias GregorianMonth = Int
+```
 
-A tuple for a Gregorian date.
+### An Int representing a Gregorian day
+```swift
+typealias GregorianDay = Int
+```
 
+### An Int representing a Julian Day Number
+```swift
+typealias JulianDayNumber = Int
+```
 
-### typealias JalaaliYear = Int
-
-An Int representing a Jalaali year.
-
-
-### typealias JalaaliMonth = Int
-
-An Int representing a Jalaali month (1-based).
-
-
-### typealias JalaaliDay = Int
-
-An Int representing a Jalaali day.
-
-
-### typealias GregorianYear = Int
-
-An Int representing a Gregorian year.
-
-
-### typealias GregorianMonth = Int
-
-An Int representing a Gregorian month (1-based).
-
-
-### typealias GregorianDay = Int
-
-An Int representing a Gregorian day.
-
-
-### typealias JulianDayNumber = Int
-
-An Int representing a Julian Day Number
-
+---
 
 ## License
 
